@@ -1,0 +1,5 @@
+#打招呼函數：編寫一個函數 greet，接受一個名字作為參數，並打印出 "Hello, [名字]!"。
+def greet(名字):
+    print(f"Hello, {名字}！")
+名字 = input("請輸入你的姓名：")
+greet(名字)
