@@ -3,3 +3,11 @@ def greet(名字):
     print(f"Hello, {名字}！")
 名字 = input("請輸入你的姓名：")
 greet(名字)
+
+#加法函數：編寫一個函數 add，接受兩個數字作為參數，並返回它們的和。
+def add(x,y):
+    return x + y
+x=int(input('數字1:'))  #當定義語法有用到運算時，要記得把變數都轉成數字型態
+y=int(input('數字2:'))
+和= add(x,y)
+print (f'總和={和}') #要run新的運算語法add時，要用print語法，如果非運算語法，則不須print即可run;也可以把line6＆7變成print(f'總和={add(x,y)}')
